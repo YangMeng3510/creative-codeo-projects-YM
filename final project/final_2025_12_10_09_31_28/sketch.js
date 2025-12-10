@@ -267,10 +267,10 @@ function draw() {
   rect(smallX, smallY, smallW, smallH);
   image(pgUI, smallX, smallY, smallW, smallH);
   
-  //fill(255);
-  //textAlign(CENTER, BOTTOM);
-  //textSize(14);
-  //text("Click canvas if audio doesn't start", width/2, height - 5);
+  fill(255);
+  textAlign(CENTER, BOTTOM);
+  textSize(14);
+  text("L: Reset | R: 2 fingers=Zoom / 3 fingers=Rotate", width/2, height - 5);
   
   if (isLeftHorizontal) {
     fill(0, 255, 0);
